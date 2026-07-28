@@ -1,0 +1,27 @@
+{
+  "name": "mern-stack-5th-day-task",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/MuhammadHamzaSE/mern-stack-5th-day-task#readme",
+  "bugs": {
+    "url": "https://github.com/MuhammadHamzaSE/mern-stack-5th-day-task/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadHamzaSE/mern-stack-5th-day-task.git"
+  },
+  "license": "MIT",
+  "author": "Muhammad Hamza",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

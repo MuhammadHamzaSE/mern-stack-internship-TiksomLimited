@@ -1,0 +1,15 @@
+{
+  "name": "mern-stack-6th-day-task",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Muhammad Hamza",
+  "type": "commonjs",
+  "main": "hello_world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
