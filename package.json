@@ -1,0 +1,28 @@
+{
+  "name": "mern_stack_internship_tiksomlimited",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/MuhammadHamzaSE/mern-stack-internship-TiksomLimited#readme",
+  "bugs": {
+    "url": "https://github.com/MuhammadHamzaSE/mern-stack-internship-TiksomLimited/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadHamzaSE/mern-stack-internship-TiksomLimited.git"
+  },
+  "license": "ISC",
+  "author": "Muhammad Hamza",
+  "type": "commonjs",
+  "scripts": {
+    "dev":"nodemon",
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+    "dependencies": {
+    "chalk": "^5.6.2",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

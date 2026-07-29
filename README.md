@@ -1,0 +1,227 @@
+# Day 2: MERN Stack Internship Tiksom Limited
+
+## Introduction to Git and GitHub
+
+## Hands-on Tasks
+- Create a new local repository.
+- Initialize Git.
+- Create:
+  - README.md
+  - .gitignore
+- Make multiple commits.
+- Push the repository to GitHub.
+- Clone the repository into another folder.
+
+## Deliverables
+- GitHub repository.
+- Minimum 5 meaningful commits.
+- Proper README.md.
+
+
+# Day 3: Git Branching & Collaboration
+
+## Hands-on Tasks
+- Create a feature branch.
+- Modify the README.
+- Merge the branch.
+- Delete the branch.
+- Simulate a merge conflict and resolve it.
+
+## Deliverables
+- Repository with feature branch history.
+- Screenshot of merge conflict resolution.
+- Notes explaining GitHub Flow.
+
+
+# Day 4: Setting Up Your First Node.js Project & npm Basics
+
+## Hands-on Tasks
+- Run `npm init` (and `npm init -y`) to generate a `package.json`; understand each field (`name`, `version`, `main`, `scripts`, `dependencies`, `devDependencies`).
+- Install a package as a dependency (e.g., `chalk` or `dayjs`) and a package as a dev dependency (e.g., `nodemon`).
+- Add a custom npm script (e.g., `"start": "node index.js"`) and run it with `npm run`.
+- Use `npx` to run a package without installing it globally.
+- Explore the difference between dependencies, devDependencies, and global installs.
+
+## Deliverables
+- A small Node.js project folder with a proper `package.json`, at least one dependency and one dev dependency installed, and a working npm script.
+- Pushed to GitHub (with `node_modules` correctly ignored).
+
+
+# Day 5: Weekly Review Practical
+
+- Initialize the Node.js project with a maintainable package.json file.
+- Create a repository from scratch.
+- Resolve a merge conflict.
+- Push code to GitHub.
+
+
+# Day 6: Introduction to JavaScript
+
+## Hands-on Tasks
+Write programs demonstrating:
+- Hello World
+- Variables
+- Constants
+- String interpolation
+- User input (via `readline` or `prompt-sync`)
+- Printing output
+
+## Exercise
+Create a Node.js script that asks:
+- Name
+- Age
+- Favorite programming language
+Print a formatted introduction.
+
+## Deliverables
+- `hello_world.js`
+- `introduction.js`
+- Push all work to GitHub
+
+
+# Day 7: Variables, Data Types, Conditionals & Loops
+
+## Hands-on Tasks
+Practice:
+- Numbers
+- Strings
+- Booleans
+- null/undefined
+- Template literals
+- if/else if/else
+- switch
+- While Loop
+- Do...while
+- For Loop
+- For of
+- For...in
+
+## Exercise
+- Build a small calculator supporting addition, subtraction, multiplication, and division, using conditionals (if/else or switch) to select the operation.
+- Create a number guessing game using a loop to allow repeated guesses.
+- Practice loop patterns: using nested for loops, print common patterns.
+
+## Deliverables
+- `calculator.js`
+- `guessing_game.js`
+- `loop_patterns.js`
+
+
+# Day 8: Operators, Functions & Scope
+
+## Hands-on Tasks
+Practice:
+- Arithmetic operators (+, -, *, /, %, **).
+- Comparison operators (== vs ===, != vs !==, <, >, <=, >=) and understand type coercion pitfalls.
+- Logical operators (&&, ||, !), the ternary operator (condition ? a : b), nullish coalescing (??), and optional chaining (?.).
+- Function declarations
+- Function expressions
+- Arrow functions
+- Default parameters
+- Closures
+
+## Exercise
+- Practice arithmetic, comparison, logical, ternary, nullish coalescing (??), and optional chaining (?.) operators through small code examples.
+- Compare the behavior of var, let, and const using practical examples.
+- Create and invoke:
+  - Function declarations
+  - Function expressions
+  - Arrow functions
+  - Functions with default parameters
+- Write examples demonstrating:
+  - Global scope
+  - Function scope
+  - Block scope
+  - Closures
+
+## Deliverables
+- `operators_practice.js`
+- `functions_practice.js`
+- `scope_practice.js`
+- `closures_practice.js`
+
+
+# Day 9 & 10: Arrays, Objects & Collection Methods
+
+## Hands-on Tasks Practice
+
+### Arrays
+- Create, access, update, and delete array elements.
+- Use common array methods:
+  - `push()`
+  - `pop()`
+  - `shift()`
+  - `unshift()`
+  - `slice()`
+  - `splice()`
+
+### Objects
+- Create, update, and delete object properties.
+- Access properties using dot and bracket notation.
+- Loop through objects using `for...in` and `Object.keys()`.
+
+### Array Methods
+- `map()`
+- `filter()`
+- `reduce()`
+- `forEach()`
+- `find()`
+- `findIndex()`
+- `some()`
+- `every()`
+- `sort()`
+- `includes()`
+
+### ES6 Features
+- Object Destructuring
+- Array Destructuring
+- Spread Operator (`...`)
+- Rest Parameters (`...`)
+
+## Exercise
+- Practice all array methods using a sample array of numbers and strings.
+- **Create a Student Grades Analyzer:**
+  - Calculate each student's average marks.
+  - Find the top scorer.
+  - Filter students who passed.
+  - Sort students by average marks.
+- **Create an Employee Directory:**
+  - Store employee information in an array of objects.
+  - Search employees by name.
+  - Filter employees by department.
+  - Calculate the average salary using `reduce()`.
+- Use destructuring and the spread operator to clone and update objects and arrays without modifying the original data.
+
+## Deliverables
+- `array_methods_practice.js`
+- `object_practice.js`
+- `grades_analyzer.js`
+- `employee_directory.js`
+- `destructuring_practice.js`
+
+
+# Day 11: Weekly Review
+
+## Hands-on Tasks
+Starting from an empty project:
+- Create a new Git repository.
+- Create a `week2-review` folder.
+- Write JavaScript programs demonstrating:
+  - Variables and data types
+  - Conditionals and loops
+  - Operators
+  - Function declarations, expressions, and arrow functions
+  - Scope and closures
+  - Arrays and objects
+  - Array methods (`map`, `filter`, `reduce`, `find`, `forEach`)
+  - Object and array destructuring
+  - Spread and rest operators
+- Commit your work using meaningful commit messages.
+- Push the repository to GitHub.
+
+## Practical
+- Build a simple calculator using functions.
+- Create a program that processes an array of objects using `map()`, `filter()`, and `reduce()`.
+- Demonstrate the use of closures and different scopes.
+- Solve 5 array manipulation problems using modern JavaScript methods.
+- Push all solutions to GitHub with meaningful commit messages.
