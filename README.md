@@ -225,3 +225,32 @@ Starting from an empty project:
 - Demonstrate the use of closures and different scopes.
 - Solve 5 array manipulation problems using modern JavaScript methods.
 - Push all solutions to GitHub with meaningful commit messages.
+
+
+# Day 12: Asynchronous JavaScript & Error Handling
+
+## Hands-on Tasks Practice
+- Synchronous vs Asynchronous
+- `setTimeout()`
+- `setInterval()`
+- Callback Functions
+- Callback Hell
+- Promises
+- Promise Chaining
+- `async/await`
+- `try/catch`
+- `.then()`
+- `.catch()`
+- `.finally()`
+- Handle API errors
+
+## Exercise
+- Create custom Promises.
+- Display user information after the Promise resolves.
+- Handle loading, success, and error states using `try...catch`.
+- Compare the same API request using both `.then()` and `async/await`.
+
+## Deliverables
+- `promises_practice.js`
+- `async_await_practice.js`
+- `error_handling.js`
