@@ -254,3 +254,37 @@ Starting from an empty project:
 - `promises_practice.js`
 - `async_await_practice.js`
 - `error_handling.js`
+
+
+# Day 13: HTTP, REST APIs & Fetch API
+
+## Hands-on Tasks Practice
+- HTTP Request & Response
+- REST APIs
+- API Endpoints
+- HTTP Methods
+- Status Codes:
+  - 200
+  - 201
+  - 400
+  - 401
+  - 403
+  - 404
+  - 500
+- Request Headers
+- Response Body
+- JSON Parsing
+- Fetch API
+- Error Handling
+
+## Exercise
+- Fetch users from JSON placeholder.
+- Display user names and emails.
+- Fetch posts for a selected user.
+- Create a POST request.
+- Handle API errors gracefully.
+
+## Deliverables
+- `fetch_practice.js`
+- `rest_api_practice.js`
+- `json_practice.js`
