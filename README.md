@@ -288,3 +288,34 @@ Starting from an empty project:
 - `fetch_practice.js`
 - `rest_api_practice.js`
 - `json_practice.js`
+
+
+# Day 14: npm Packages, Axios & Environment Variables
+
+## Hands-on Tasks Practice
+- `npm init`
+- Install Packages
+- Remove Packages
+- Update Packages
+- `package.json`
+- `package-lock.json`
+- Dependencies
+- Dev Dependencies
+- Global vs Local Packages
+- Axios GET Request
+- Axios POST Request
+- Environment Variables
+- `.env`
+- `.gitignore`
+
+## Exercise
+- Create a new Node.js project.
+- Install Axios and dotenv.
+- Fetch data using Axios.
+- Store the API URL inside `.env`.
+- Compare Fetch API and Axios.
+
+## Deliverables
+- `axios_practice.js`
+- `npm_practice.md`
+- `dotenv_practice.js`
