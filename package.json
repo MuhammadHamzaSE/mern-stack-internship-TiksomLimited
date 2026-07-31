@@ -1,7 +1,7 @@
 {
   "name": "mern_stack_internship_tiksomlimited",
   "version": "1.0.0",
-  "description": "",
+  "description": "- Create a new local repository.\r - Initialize Git.\r - Create:\r   - README.md\r   - .gitignore\r - Make multiple commits.\r - Push the repository to GitHub.\r - Clone the repository into another folder.",
   "homepage": "https://github.com/MuhammadHamzaSE/mern-stack-internship-TiksomLimited#readme",
   "bugs": {
     "url": "https://github.com/MuhammadHamzaSE/mern-stack-internship-TiksomLimited/issues"
@@ -13,13 +13,16 @@
   "license": "ISC",
   "author": "Muhammad Hamza",
   "type": "commonjs",
+  "main": "index.js",
   "scripts": {
-    "dev":"nodemon",
-    "start":"node index.js",
+    "dev": "nodemon",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-    "dependencies": {
+  "dependencies": {
+    "axios": "^1.19.0",
     "chalk": "^5.6.2",
+    "dotenv": "^17.4.2",
     "prompt-sync": "^4.2.0"
   },
   "devDependencies": {
