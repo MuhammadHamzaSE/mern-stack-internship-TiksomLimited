@@ -319,3 +319,33 @@ Starting from an empty project:
 - `axios_practice.js`
 - `npm_practice.md`
 - `dotenv_practice.js`
+
+
+# Day 15: JavaScript Mini Project - User Management System
+
+## Project Overview
+Built a **User Management System** using modular JavaScript to fetch, filter, sort, and display user data from a public API.
+
+## Features
+- Fetch users from a public API using `async/await`.
+- Display all users dynamically.
+- Search users by name.
+- Filter users by company.
+- Sort users alphabetically.
+- View individual user details.
+- Gracefully handle API errors.
+- Organize code into clean, reusable modules.
+- Secure environment configuration using `.env`.
+
+## Concepts Covered
+- Functions
+- Arrays & Objects
+- Array Methods (`map`, `filter`, `sort`, etc.)
+- Async/Await
+- Fetch API / Axios
+- Error Handling (`try...catch`)
+- ES6 Modules
+- Environment Variables
+
+## Deliverables
+- `user-management-system/`

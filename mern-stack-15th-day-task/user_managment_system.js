@@ -1,30 +1,32 @@
-const axios=require("axios")
-const ps=require("prompt-sync");
-const prompt=ps();
-async function getUser(){
+const {getUser}=require("./api_user")
+const{displayUser,searchByCompany,searchByName,sortByName}=require("./userOperations")
+const {searchByID}=require("./searchByID")
+
+async function getUserData(){
     try{
-        const response=await axios.get("https://jsonplaceholder.typicode.com/users")
-        const userArr=[response.data]
-        if(!response){
-            // console.log("Invalid API :",response.status)
-        }
-        else{
-        console.log(userArr)
-        }
-        console.log(userArr)
-        console.log("If You Want To Search A User Bt its name :")
-        const userName=prompt("Enter the name of user :")
-        const newArr=userArr.map((num)=>{
-        const specificUser=userArr.filter((num)=>(num.name===userName))
-        console.log(specificUser.data)
-        return newArr
-        })
-        console.log(newArr)
+        const users=await getUser()
+         displayUser(users)
 
+        console.log("++++++++++++++++++ Search By User Name ++++++++++++++")
 
-    }
-    catch(error){
-        // console.log("Something went wrong :", error.response.status)
+        const userName=searchByName(users,'Chelsey Dietrich')
+        displayUser(userName)
+
+        console.log("++++++++++++++++++ Search By Company Name +++++++++++")
+
+        const companyName=searchByCompany(users,"Yost and Sons")
+        displayUser(companyName)
+
+        console.log("++++++++++++++++++ Sorted Accordig to Name +++++++++++")
+
+        const sortingName=sortByName(users)
+        displayUser(sortingName)
+
+        console.log("++++++++++ Details Of A User Of Specific ID +++++++++++")
+        const viewUser=searchByID(users,3)
+        displayUser(viewUser)
+    }catch(error){
+        ("Something went wrong :",error.essage)
     }
 }
-getUser();
+getUserData();
