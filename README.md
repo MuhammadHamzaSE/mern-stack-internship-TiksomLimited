@@ -349,3 +349,25 @@ Built a **User Management System** using modular JavaScript to fetch, filter, so
 
 ## Deliverables
 - `user-management-system/`
+
+
+# Day 16: Weekly Review
+
+## Hands-on Tasks
+Starting from an empty directory:
+- Initialize a Node.js project.
+- Configure `package.json`.
+- Install required npm packages.
+- Create a modular folder structure.
+- Fetch data from a public API.
+- Process API responses using JavaScript array methods.
+- Handle errors using `try...catch`.
+- Store configuration values in `.env`.
+- Push the completed project to GitHub.
+
+## Practical
+- Create a custom Promise.
+- Fetch data from a public API using both Fetch and Axios.
+- Handle API errors using `try...catch`.
+- Create a Node.js project using npm.
+- Build a modular application using ES Modules.
