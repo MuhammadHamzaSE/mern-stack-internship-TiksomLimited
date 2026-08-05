@@ -371,3 +371,32 @@ Starting from an empty directory:
 - Handle API errors using `try...catch`.
 - Create a Node.js project using npm.
 - Build a modular application using ES Modules.
+
+
+# Day 17: Introduction to React & Project Setup
+
+## Hands-on Tasks Practice
+- What is React?
+- Why React?
+- SPA vs MPA
+- Virtual DOM
+- React Project Structure
+- Vite (`npm create vite`)
+- JSX Syntax
+- Rendering Elements
+- Expressions in JSX
+- React Fragments (`<> </>`)
+
+## Exercise
+- Install Node.js dependencies.
+- Create a React project using Vite.
+- Explore the project structure.
+- Modify the default application.
+- Display personal information using JSX.
+- Display the current date and time.
+- Display variables and expressions inside JSX.
+
+## Deliverables
+- `react-introduction/`
+- `hello-react/`
+- `jsx-practice/`
