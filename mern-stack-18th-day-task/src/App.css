@@ -1,0 +1,10 @@
+.card{
+  display: flex;             
+  flex-wrap: wrap;          
+  gap: 75px;                
+  justify-content: center;  
+  padding: 40px 20px;       
+}
+.header{
+  text-align: center;
+}

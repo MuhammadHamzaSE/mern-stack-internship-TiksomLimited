@@ -400,3 +400,34 @@ Starting from an empty directory:
 - `react-introduction/`
 - `hello-react/`
 - `jsx-practice/`
+
+
+# Day 18: Components & Props
+
+## Hands-on Tasks Practice
+- Functional Components
+- Component Naming Conventions
+- Nested Components
+- Props & Passing Data
+- Default Props
+- Children Props
+- Component Reusability
+
+## Exercise
+- Build reusable UI components:
+  - Header
+  - Footer
+  - Navbar
+  - User Card
+  - Product Card
+- Create a `Student Card` component that receives:
+  - Name
+  - Roll Number
+  - Department
+  - CGPA
+  - Image
+- Render multiple student cards using props.
+
+## Deliverables
+- `components_practice/`
+- `student_card_app/`
