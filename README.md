@@ -431,3 +431,28 @@ Starting from an empty directory:
 ## Deliverables
 - `components_practice/`
 - `student_card_app/`
+
+
+# Day 19: State & Event Handling
+
+## Objective
+- Learn state management using `useState`.
+- Update UI dynamically.
+- Handle user interactions.
+
+## Hands-on Tasks Practice
+- `useState` Hook
+- Event Handling (Click, Input, Form Events)
+- Updating State
+- Managing Multiple State Variables
+
+## Exercise
+- Counter App
+- Show/Hide Password Toggle
+- Light/Dark Theme Toggle
+- Live Character Counter
+
+## Deliverables
+- `counter_app/`
+- `theme_toggle/`
+- `character_counter/`
