@@ -456,3 +456,36 @@ Starting from an empty directory:
 - `counter_app/`
 - `theme_toggle/`
 - `character_counter/`
+
+
+# Day 20: Rendering Lists & Conditional Rendering
+
+## Objective
+- Render dynamic data.
+- Display lists using `map()`.
+- Conditionally display UI.
+
+## Hands-on Tasks Practice
+- `map()` Array Method
+- Keys in React Lists
+- Conditional Rendering
+- Ternary Operator (`? :`)
+- Logical AND Operator (`&&`)
+- Filtering Lists
+- Empty State UI Handling
+
+## Exercise
+- Create:
+  - Student List
+  - Employee List
+  - Product List
+- Features:
+  - Search functionality
+  - Filter options
+  - Display "No Data Found" empty state
+  - Highlight Active Users dynamically
+
+## Deliverables
+- `student_list/`
+- `employee_directory/`
+- `product_listing/`
