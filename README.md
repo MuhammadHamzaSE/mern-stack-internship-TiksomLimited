@@ -489,3 +489,40 @@ Starting from an empty directory:
 - `student_list/`
 - `employee_directory/`
 - `product_listing/`
+
+
+# Day 21: Weekly Review & Mini Project (Student Management Dashboard)
+
+## Objective
+Apply everything learned during Week 4 by building a React application from scratch.
+
+## Mini Project: Student Management Dashboard
+### Features:
+- Header & Sidebar navigation layout
+- Dynamic Student List with Student Cards
+- Live Search functionality by student name
+- Filter students by Department
+- Dynamic Total Students Count
+- Active/Inactive Student Status indicators
+
+### Concepts Applied:
+- JSX Syntax
+- Component Composition
+- Props & Default Props
+- `useState` State Management
+- Event Handling
+- Conditional Rendering
+- Dynamic List Rendering using `map()` and unique Keys
+
+## Weekly Quiz Coverage
+- **Theory:** React basics, JSX, Components, Props vs State, `useState()`, State Immutability, Importance of Keys, Conditional Rendering, and Component Composition.
+- **Practical:** Built reusable components, passed prop data, managed dynamic state, rendered complex array objects, applied conditional UI elements, and authored custom interactive components.
+
+## Weekly Deliverables
+- GitHub repository containing Week 4 exercises
+- 15–20 meaningful commits
+- All React practice exercises completed
+- Product Listing review exercise completed
+- Student Management Dashboard completed
+- Weekly quiz completed
+- Clean, modular React project structure
