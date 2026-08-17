@@ -526,3 +526,31 @@ Apply everything learned during Week 4 by building a React application from scra
 - Student Management Dashboard completed
 - Weekly quiz completed
 - Clean, modular React project structure
+
+
+# Day 24: Flexbox, Grid & CSS Positioning
+
+## Objective
+- Understand modern CSS layout systems.
+- Build 1D layouts using Flexbox and 2D layouts using CSS Grid.
+- Master layout decision-making (Flexbox vs CSS Grid).
+- Understand element positioning and layering (`z-index`).
+
+## Hands-on Tasks Practice
+
+### Flexbox
+- **Properties Practiced:** `display: flex`, `flex-direction`, `justify-content`, `align-items`, `align-content`, `flex-wrap`, `gap`, `flex-grow`, `flex-shrink`, `flex-basis`, `order`
+- **Layouts Built:** Navbar, Two-column layout, Card row, Centered content, Footer
+
+### CSS Grid
+- **Properties Practiced:** `display: grid`, `grid-template-columns`, `grid-template-rows`, `gap`, `grid-column`, `grid-row`, `repeat()`, `minmax()`
+- **Layouts Built:** Image gallery, Product grid, Dashboard layout
+
+### Positioning
+- **Types Practiced:** `static`, `relative`, `absolute`, `fixed`, `sticky`, `z-index`
+
+## Exercise
+- **Dashboard UI Project:**
+  - Sidebar & Header (using Flexbox)
+  - Grid-based Dashboard sections (Statistics cards, Main content, Recent activity, User table)
+  - Positioning overlays for Badges and UI elements
