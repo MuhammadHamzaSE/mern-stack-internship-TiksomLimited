@@ -528,7 +528,7 @@ Apply everything learned during Week 4 by building a React application from scra
 - Clean, modular React project structure
 
 
-# Day 24: Flexbox, Grid & CSS Positioning
+# Day 22: Flexbox, Grid & CSS Positioning
 
 ## Objective
 - Understand modern CSS layout systems.
@@ -554,3 +554,31 @@ Apply everything learned during Week 4 by building a React application from scra
   - Sidebar & Header (using Flexbox)
   - Grid-based Dashboard sections (Statistics cards, Main content, Recent activity, User table)
   - Positioning overlays for Badges and UI elements
+
+
+  # Day 23: Responsive Design & CSS Patterns
+
+## Objective
+- Master responsive web design principles and mobile-first development.
+- Implement media queries and custom breakpoints effectively.
+- Create flexible layouts using relative units (`max-width`, `%`, `rem`, `em`, `vw`, `vh`).
+- Build and adapt common responsive UI patterns across different screen sizes.
+
+## Hands-on Tasks Practice
+
+### Responsive Fundamentals
+- Mobile-first CSS workflow
+- Media queries & Breakpoints
+- Responsive containers & Flexible widths
+- Responsive images & Typography
+
+### Common CSS Patterns Built
+- Responsive navbar (hamburger menu layout)
+- Responsive card grid
+- Two-column to one-column layout transition
+- Responsive sidebar (collapsible/toggleable)
+- Sticky header & Hero section
+- Responsive image gallery
+
+## Exercise
+- **Responsive Dashboard UI:** Converted the Day 24 Dashboard UI into a fully mobile-responsive dashboard that seamlessly adapts across mobile, tablet, and desktop views.

@@ -21,7 +21,7 @@
     display: flex;
     justify-content: space-between;
     align-items:center ;
-    width: 1000px;
+    width: 100vw;
 }
 .main {
     flex: 1;
@@ -66,4 +66,54 @@ td {
     padding: 20px;
     text-align: center;
     margin-top: 20px;
+}
+
+@media(max-width:768px){
+    .dashboard{
+        display: flex;
+        flex-direction: column;
+    }
+    .sidebar{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 0;
+        flex-wrap: wrap;
+    }
+    .main{
+        flex-wrap: wrap;
+        width: 100%;
+    }.header{
+        width: auto;
+        justify-content: left;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .header p{
+        margin-left: 20px;
+    }
+    .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}.content {
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+.activity{
+    text-align: center;
+    min-width: 0;
+}
+.users{
+    min-width: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer{
+    width: auto;
+}
+
 }
