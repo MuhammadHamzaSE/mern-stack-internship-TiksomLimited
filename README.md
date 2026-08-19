@@ -582,3 +582,30 @@ Apply everything learned during Week 4 by building a React application from scra
 
 ## Exercise
 - **Responsive Dashboard UI:** Converted the Day 24 Dashboard UI into a fully mobile-responsive dashboard that seamlessly adapts across mobile, tablet, and desktop views.
+
+
+# Day 24: DOM Manipulation with JavaScript
+
+## Hands-on Tasks Practice
+
+### Selecting Elements
+- `getElementById()`, `querySelector()`, `querySelectorAll()`
+
+### Modifying Elements
+- `textContent`, `innerHTML`, `classList`, `style`
+
+### Creating & Removing Elements
+- `createElement()`, `append()`, `appendChild()`, `remove()`
+
+### Event Handling & DOM Events
+- Events: `click`, `input`, `change`, `submit`, `keydown`
+- Concepts: Event object, `preventDefault()`, Event bubbling, Event delegation
+
+## Task: Dynamic Cards with JavaScript
+
+### Requirements Implemented
+- Created container `<div id="dynamic-boxes"></div>`.
+- Added user input for total number of cards to generate and a **Generate Cards** button.
+- Dynamic card generation via JS loop (min-width/min-height 100px, custom CSS spacing, and visible card labels).
+- Added **Delete Random Card** button to randomly select and remove an active card from the DOM.
+- Handled empty states gracefully with error/warning feedback when no cards remain.
