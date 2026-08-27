@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="div_shape">
+                <img src="./assets/white-shopping-bag-icon-vector-15479297-removebg-preview.png" style="height: 55px; width: 55px;" alt="">
+            </div>
+            <div>
+            <h1 >PRODUCT EXPLORER</h1>
+            <h3 style="margin-top: 10px; margin-left: 30px;">Browse Our Product Collection</h3>
+            </div>
+                <div style="position: absolute; left: 10px; top: 20px; right: 10px;">
+                <img src="./assets/white-shopping-bag-icon-vector-15479297-removebg-preview.png" style="width: 100px; height: 100px; opacity: 0.3; " alt="">
+            </div>
+        </div>
+        <div class="inputSection">
+            <div class="searching">
+                <img src="./assets/icons8-find-50.png" style="height: 25px; width: 25px; margin-top: 10px; margin-left: 10px;" alt="">
+              <input type="text" class="input" placeholder=" Search Products ..." id="searchProducts"  style="height: 40px; width: 300px;border: unset; font-size: medium; text-align: center;  "> 
+            </div>
+            <div id="categoriesSearch" class="categorySection">
+                <img src="./assets/icons8-categories-64.png" style="height: 25px; width: 25px; margin-top: 10px; margin-left: 10px; margin-right: 20px;" alt="">
+                <select name="" id="category" style="   font-size: medium; border: unset; text-align: center;">
+                    <option value="all">All Categories</option>
+                    <option value="beauty">Beauty</option>
+                    <option value="fragrances">Fragrances</option>
+                    <option value="furniture">Furniture</option>
+                    <option value="groceries">Groceries</option>
+                </select>
+            </div>
+            
+            <div id="sortBy" class="sortBy">
+                <img src="./assets/icons8-sort-32.png" style="height: 25px; width: 25px; margin-top: 10px ; margin-left: 10px;" alt="">
+                <select name="" class="sort" id="sort" style="border: unset; text-align: center; font-size: medium;  ">
+                    <option value="all">Sort By Feature</option>
+                    <option value="Low to High">Price : Low -> High</option>
+                    <option value="High To Low ">Price : High -> Low</option>
+                </select>
+            </div>
+
+        </div>
+        <!-- <img alt="" src="https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp"> -->
+        <div class="products">
+                <!-- <img src="" alt="" id="image"> 
+                <h4 id="title"></h4>
+                <p id="card-category"></p>
+                <p id="price"></p>
+                <p id="rating"></p>
+                <p id="stock-status"></p>
+                <button id="details-btn"></button> -->
+            
+        </div>
+
+        <footer>
+            <div class="footer">
+                <div class="div1">
+                    <img src="./assets/icons8-cart-50.png" alt="" style="height: 40px; width: 40px; object-fit: cover;">
+                <div class="div2">
+                    <h3>Product Explorer</h3>
+                    <p>&copy; All rights rederved</p>
+                </div>
+                </div>
+                <div class="div3">
+                    <h3 style="margin-bottom: 5px;">Shop</h3>
+                    <p style="margin-bottom: 5px;">All Products</p>
+                    <p style="margin-bottom: 5px;">Categories</p>
+                    <p style="margin-bottom: 5px;">Deals</p>
+                </div>
+                <div>
+                    <h3 style="margin-bottom: 5px;">Help</h3>
+                    <p style="margin-bottom: 5px;">FAQs</p>
+                    <p style="margin-bottom: 5px;">Shopping</p>
+                    <p style="margin-bottom: 5px;">Returns</p>
+                </div>
+                <div>
+                    <h3 style="margin-bottom: 5px;">COMPANY</h3>
+                    <p style="margin-bottom: 5px;">Abot Us</p>
+                    <p style="margin-bottom: 5px;">Carrer</p>
+                    <p style="margin-bottom: 5px;">Contact</p>   
+                </div>
+                <div>
+                    <h3 style="margin-left: 10px;">Follow Us</h3>
+                    <div class="footer-pictures">
+                        <img src="./assets/icons8-facebook-48.png" style="height: 25px; width: 25px;" alt="">
+                        <img src="./assets/icons8-instagram-logo-48.png" style="height: 25px; width: 25px;">
+                        <img src="./assets/icons8-twitter-bird-48.png" style="height: 25px; width: 25px; ">
+                        <img src="./assets/icons8-youtube-logo-94.png" style="height: 25px; width: 25px;" alt="">
+                        <img src="./assets/icons8-whatsapp-logo-94.png" style="height: 25px; width: px;" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

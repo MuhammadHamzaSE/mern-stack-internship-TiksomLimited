@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+@font-face {
+    font-family: NeueMachina-Ultrabold;
+    src: url("./assets/neue-machina-font-family/neuemachina-ultrabold.otf");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #091714;
+}
+
+.navbar {
+    color: white;
+    display: grid;
+    padding: 0 90px;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    height: 70px;
+}
+
+.TMS {
+    font-family: "Inter";
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    font-family: "Space Grotesk";
+}
+
+.nav-btn {
+    display: flex;
+    gap: 20px;
+    font-family: "Space Grotesk";
+}
+
+.get-btn {
+    background-image: linear-gradient(360deg, #18BF6F 0%, #00AC8D 100%);
+}
+
+.head {
+    color: white;
+    font-size: 25px;
+    font-family: "NeueMachina-Ultrabold";
+}
+
+.head-para {
+    color: white;
+    font-family: "Space Grotesk";
+}
+
+.head-from {
+    padding: 20px;
+    display: flex;
+    gap: unset;
+}
+
+.header {
+    display: flex;
+    padding-left: 90px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.head-from-input::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.margin {
+    margin-top: 25px;
+}
+
+.bottom {
+    display: flex;
+    color: white;
+    gap: 10px;
+    padding: 50px;
+    font-family: "Space Grotesk";
+    position: absolute;
+    z-index: 40;
+    bottom: 15px;
+}
+
+.TMS2 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: "NeueMachina-Ultrabold";
+    padding: 40px;
+}
+
+.para {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    font-family: "Space Grotesk";
+    gap: 50px;
+    opacity: 0.7;
+}
+
+.side-pic {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.div1 {
+    color: white;
+    font-size: 25px;
+    font-family: "NeueMachina-Ultrabold";
+}
+
+.div2 {
+    color: white;
+    font-size: 25px;
+    font-family: "NeueMachina-Ultrabold";
+}
+
+.side-pic2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 30px;
+}
+
+.Platfrom-Advanatage {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: "NeueMachina-Ultrabold";
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    gap: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.inerCard {
+    border: 1px solid #0E4939;
+    padding: 30px;
+    height: auto;
+    background-color: #1B2E28;
+}
+
+.inerCard img {
+    background-color: #1B2E28;
+}
+
+.inerCard p {
+    background-color: #1B2E28;
+    margin-top: 10px;
+}
+
+.Trading {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: "NeueMachina-Ultrabold";
+    margin-top: 30px;
+}
+
+.para2 {
+    text-align: center;
+    color: white;
+    font-family: "Space Grotesk";
+    margin-top: 35px;
+}
+
+.column {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px;
+}
+
+.column-detail {
+    border: 1px solid #0E4939;
+    padding: 30px;
+    margin-bottom: 0px;
+}
+
+.menu-btn, .menu {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        position: relative;
+    }
+
+    .links, .nav-btn {
+        display: none !important;
+    }
+
+    .menu-btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 24px;
+        height: 16px;
+        cursor: pointer;
+        z-index: 100;
+        background: transparent;
+    }
+
+    .menu-btn span {
+        display: block;
+        height: 2px;
+        width: 100%;
+        background-color: white;
+        border-radius: 2px;
+        transition: all 0.3s ease;
+    }
+
+    .menu-btn span:nth-child(2) {
+        width: 75%;
+        align-self: flex-end;
+    }
+
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #091714;
+        border-bottom: 1px solid #0E4939;
+        padding: 20px;
+        gap: 15px;
+        z-index: 99;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .menu a {
+        color: white;
+        text-decoration: none;
+        font-family: "Space Grotesk";
+        font-size: 18px;
+    }
+
+    .mobile-nav-btn {
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .TMS {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        height: auto;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 0px 20px;
+    }
+
+    .landingpagepic {
+        margin-top: 30px;
+        width: auto;
+        height: auto;
+    }
+
+    .margin {
+        gap: 20px;
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    .bottom {
+        bottom: 5px;
+        padding: 0px;
+        left: 40px;
+    }
+
+    .bottom p {
+        font-size: 10px;
+    }
+
+    .bottom img {
+        width: auto;
+        height: auto;
+    }
+
+    .side-pic {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0px 20px;
+    }
+
+    .div1-1, .div1-2 {
+        margin-top: 15px;
+    }
+
+    .side-pic2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0px 20px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .inerCard {
+        height: auto;
+    }
+
+    .inerCard p {
+        margin-bottom: 10px;
+    }
+
+    .column {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 45px;
+        gap: 0px;
+    }
+
+    .head-para {
+        margin-top: 13px;
+    }
+
+    .TMS2, .div1, .Platfrom-Advanatage, .Trading {
+        font-size: 20px;
+    }
+
+    .div1 {
+        padding: 15px;
+    }
+
+    .div1-2 img, .div1-3 img, .div1-4 img, .div1-5 img, .div1-6 img,
+    .div2-1 img, .div2-2 img, .div2-3 img, .div2-4 img, .div2-5 img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .div2 {
+        font-size: 17px;
+        padding: 0px 20px;
+    }
+
+    .div2-1 {
+        margin-top: 10px;
+    }
+
+    .Platfrom-Advanatage {
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+
+    .para2 {
+        padding: 0 45px;
+    }
+
+    .para {
+        padding: 0 40px;
+    }
+}
