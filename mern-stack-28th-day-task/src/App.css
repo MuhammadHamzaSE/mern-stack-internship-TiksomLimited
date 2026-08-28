@@ -1,0 +1,23 @@
+*{
+  margin: 0px;
+  padding: 0px;}
+.container{
+}
+.Header{
+  background-color: rgb(255, 184, 97);
+  height: auto;
+  padding: 40px;
+  /* width: 100vw; */
+}
+.searching{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items:center;
+  padding: 20px;
+  background-color:rgb(248, 211, 165); 
+}
+.card{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
