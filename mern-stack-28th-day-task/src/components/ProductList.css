@@ -1,0 +1,13 @@
+.product{
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(198, 178, 153);
+    height: auto;
+    padding: 15px;
+    width: 100vw;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 30px;
+}

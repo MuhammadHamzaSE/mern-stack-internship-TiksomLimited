@@ -638,3 +638,30 @@ Apply everything learned during Week 4 by building a React application from scra
 
 ## Deliverables
 - `student-registration-form/`
+
+
+# Day 28: Component Communication & Lifting State Up
+
+## Objective
+- Understand unidirectional data flow in React.
+- Pass data from parent to child components using props.
+- Pass callback functions from parent to child for child-to-parent communication.
+- Master the concept of lifting state up to a common ancestor.
+- Avoid duplicated state and work with derived state.
+
+## Hands-on Tasks Practice
+- Props data flow (Parent → Child)
+- Event handler callback execution (Child → Parent)
+- Centralizing shared state
+- Lifting state up design pattern
+- Derived state calculations
+
+## Exercise: Product Filter Application
+- **Requirements Implemented:**
+  - Lifted dynamic search, category filter, and selection state to the root parent component.
+  - Implemented real-time product search and category filtering.
+  - Calculated and rendered total filtered product count.
+  - Enabled product selection to display detailed modal/card view via shared callbacks.
+
+## Deliverables
+- `product-filter-app/`
