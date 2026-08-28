@@ -609,3 +609,32 @@ Apply everything learned during Week 4 by building a React application from scra
 - Dynamic card generation via JS loop (min-width/min-height 100px, custom CSS spacing, and visible card labels).
 - Added **Delete Random Card** button to randomly select and remove an active card from the DOM.
 - Handled empty states gracefully with error/warning feedback when no cards remain.
+
+
+# Day 27: Forms & Controlled Components
+
+## Objective
+- Understand how forms work in React.
+- Handle form inputs using state.
+- Master controlled components pattern.
+- Manage form submission and user input validation.
+- Display dynamic error feedback and reset form states.
+
+## Hands-on Tasks Practice
+- React form elements & Controlled inputs (`value`, `onChange`)
+- Form submission with `onSubmit` & `event.preventDefault()`
+- Managing multi-input form state with a single state object
+- Input validation (Required fields, patterns, and dynamic error messages)
+- Resetting form inputs
+- Working with Checkboxes, Radio buttons, and Select dropdowns
+
+## Exercise: Student Registration Form
+- **Fields:** Name, Email, Phone, Department, Gender, Skills, Semester
+- **Requirements Implemented:**
+  - State management using `useState` for all input fields.
+  - Form validation for required fields with instant error display.
+  - Handled form submission and rendered submitted student card/summary UI.
+  - Implemented a reset button to restore default state.
+
+## Deliverables
+- `student-registration-form/`
