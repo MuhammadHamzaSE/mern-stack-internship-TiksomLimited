@@ -665,3 +665,27 @@ Apply everything learned during Week 4 by building a React application from scra
 
 ## Deliverables
 - `product-filter-app/`
+
+
+# Day 29: useEffect & React Side Effects
+
+## Objective
+- Understand side effects in React components.
+- Master the `useEffect` hook and its lifecycle execution.
+- Learn dependency array configurations (`[]`, `[dep]`, or no array).
+- Implement cleanup functions to avoid memory leaks.
+
+## Hands-on Tasks Practice
+- `useEffect()` syntax & execution timing
+- Mounting effects with an empty dependency array `[]`
+- Triggering side effects on state/prop changes
+- Implementing cleanup logic in effects
+
+## Exercise: Side Effects Applications
+1. **Document Title Counter:** Updates `document.title` dynamically as counter state changes.
+2. **Window Resize Listener:** Listens to window resize events, updates current browser width state, and removes event listeners on unmount.
+3. **Timer Component:** Implements an interval counter using `setInterval()` with clean `clearInterval()` lifecycle disposal.
+4. **Search Effect:** Triggers dynamic side-effect actions when search input state changes.
+
+## Deliverables
+- `react-useeffect-practice/`
