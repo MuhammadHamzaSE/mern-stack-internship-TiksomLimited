@@ -1,0 +1,196 @@
+@font-face {
+  font-family: 'Integral CF Bold';
+  src: url("../assets/font/Integral-CF/Demo_Fonts/Fontspring-DEMO-integralcf-bold.otf");
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url("../assets/font/Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf");
+}
+
+
+.contact {
+  padding: 40px;
+}
+
+.contact1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: #F2F0F1;
+  border-radius: 20px;
+  padding: 15px;
+  overflow: hidden;
+  height: 500px;
+}
+.contact_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-img{
+  height: 100%;
+  width: 100%;
+}
+
+.contact2 {
+  font-family: "Integral CF Bold", sans-serif;
+  margin-bottom: 15px;
+}
+
+.contact3 {
+  font-family: Satoshi, sans-serif;
+  color: gray;
+}
+
+.contact4 {
+  padding: 70px;
+}
+
+.contact5 {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  padding: 40px;
+  font-family: 'Satoshi', sans-serif;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact6 {
+  border: 1px solid #EAEAEA;
+  border-radius: 16px;
+  padding: 35px;
+  background-color: #ffffff;
+}
+
+.contact6 h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #000000;
+}
+
+.contact6 .subtitle {
+  color: #808080;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  color: #666666;
+  font-size: 14px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #E2E8F0;
+  border-radius: 10px;
+  font-size: 14px;
+  outline: none;
+  box-sizing: border-box;
+  color: #333333;
+  background-color: #FAFAFA;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #A0AEC0;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 16px;
+  border-radius: 50px; 
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  opacity: 0.9;
+}
+
+.contact7 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-card {
+  border: 1px solid #EAEAEA;
+  padding: 24px;
+  border-radius: 16px;
+  background-color: #ffffff;
+}
+
+.icon-wrapper {
+  width: 48px;
+  height: 48px;
+  background-color: #ECEAE3; 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.icon-wrapper img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.info-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #000;
+}
+
+.info-card .primary-text {
+  color: #1A1A1A;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.info-card .sub-text {
+  color: #808080;
+  font-size: 13px;
+  line-height: 1.5;
+}
+@media screen and (max-width: 768px){
+    .contact1{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 600px;
+    }
+    .contact5{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+.contact4 {
+  padding: 30px;
+}
+}

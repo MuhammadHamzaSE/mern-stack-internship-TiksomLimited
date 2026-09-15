@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'Integral CF Bold';
+  src: url("../assets/font/Integral-CF/Demo_Fonts/Fontspring-DEMO-integralcf-bold.otf");
+}
+
+.product-list-container {
+  width: 100%;
+}
+
+.newarrival {
+  font-family: "Integral CF Bold", sans-serif;
+  text-align: center;
+  padding: 50px 20px 30px 20px;
+}
+
+.newarrival h1 {
+  font-size: 36px;
+  letter-spacing: 0.5px;
+}
+
+.carddetail {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.btn2 {
+  display: flex;
+  align-items: center;
+  padding: 40px 20px;
+  justify-content: center;
+}
+
+.btn3 {
+  padding: 14px 30px;
+  width: 180px;
+  border-radius: 62px;
+  border: 1px solid #e0e0e0;
+  background-color: transparent;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn3:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .carddetail {
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .newarrival {
+    padding: 30px 16px 20px 16px;
+  }
+
+  .newarrival h1 {
+    font-size: 28px;
+  }
+
+  .carddetail {
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .newarrival h1 {
+    font-size: 24px;
+  }
+
+  .carddetail {
+    grid-template-columns: 1fr;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .btn3 {
+    width: 100%; 
+  }
+}

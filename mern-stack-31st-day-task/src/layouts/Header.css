@@ -1,0 +1,161 @@
+@font-face {
+  font-family: Satoshi;
+  src: url("../assets/font/Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header-wrapper {
+  width: 100%;
+  font-family: 'Satoshi', sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 70px;
+  background-color: #ffffff;
+  position: relative;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.hamburger-btn {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20px;
+  height: 14px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.hamburger-btn .bar {
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  border-radius: 2px;
+}
+
+.navbar1 {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.link1, .link2, .link3 {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.link1:hover, .link2:hover, .link3:hover {
+  opacity: 0.7;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  height: 42px;
+  width: 100%;
+  max-width: 450px;
+  border-radius: 62px;
+  background: #F0F0F0;
+}
+
+.searchicon {
+  width: 18px;
+  height: 18px;
+}
+
+.input1 {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+.header-right-icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.icon-btn img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+.mobile-search-btn {
+  display: none;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .header {
+    padding: 16px 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 14px 20px;
+  }
+
+  .hamburger-btn {
+    display: flex;
+  }
+
+  .desktop-search {
+    display: none;
+  }
+
+  .mobile-search-btn {
+    display: flex;
+  }
+
+  .navbar1 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    flex-direction: column;
+    padding: 20px 0;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+    z-index: 99;
+  }
+
+  .navbar1.active {
+    display: flex;
+  }
+}

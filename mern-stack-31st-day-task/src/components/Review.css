@@ -1,0 +1,9 @@
+.review{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+}
+.review1{
+    display: flex;
+    gap: 10px;
+}
