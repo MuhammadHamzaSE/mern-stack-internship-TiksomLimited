@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'Integral CF Bold';
+  src: url("../assets/font/Integral-CF/Demo_Fonts/Fontspring-DEMO-integralcf-bold.otf");
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url("../assets/font/Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf");
+}
+.product{
+    display: grid;
+    grid-template-columns: 0.1fr 0.4fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+.product1{
+    font-family: "Integral CF Bold", sans-serif;
+    margin-bottom: 10px;
+}
+.product2{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.product3{
+    text-decoration: line-through;
+    color: gray;
+}
+.product4{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.product5{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(203, 202, 202);
+    border-radius: 25px;
+    padding: 10px;
+    width: 15%;
+}
+.product6{
+    display: flex;
+    gap: 10px;
+}
+.product7{
+    width: 100%;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    border: 0;
+}
+.product9{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Review5{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.Review1{
+    padding: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .product{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .product9{
+        display: flex;
+        flex-direction: row;
+    }
+}
+.description{
+     font-family: Satoshi;
+     margin-bottom: 10px;
+}
+
+.Review5{
+    display: grid;
+    grid-template-columns:1fr;
+}

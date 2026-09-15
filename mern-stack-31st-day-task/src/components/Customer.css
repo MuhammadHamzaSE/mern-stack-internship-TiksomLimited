@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Integral CF Bold';
+  src: url("../assets/font/Integral-CF/Demo_Fonts/Fontspring-DEMO-integralcf-bold.otf");
+}
+
+.customer-section {
+  width: 100%;
+}
+
+.comments {
+  font-family: "Integral CF Bold", sans-serif;
+  padding: 40px 50px 20px 50px;
+}
+
+.comments h1 {
+  font-size: 36px;
+  letter-spacing: 0.5px;
+}
+
+.data {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 0 50px 50px 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .comments {
+    padding: 30px 30px 15px 30px;
+  }
+  
+  .comments h1 {
+    font-size: 30px;
+  }
+
+  .data {
+    padding: 0 30px 40px 30px;
+    gap: 16px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .comments {
+    padding: 30px 20px 15px 20px;
+  }
+
+  .comments h1 {
+    font-size: 26px;
+  }
+
+  .data {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 20px 30px 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .comments {
+    padding: 20px 16px 10px 16px;
+    text-align: center;
+  }
+
+  .comments h1 {
+    font-size: 22px;
+  }
+
+  .data {
+    grid-template-columns: 1fr;
+    padding: 0 16px 20px 16px;
+    gap: 15px;
+  }
+}

@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'Satoshi';
+  src: url("../assets/font/Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf");
+}
+
+.footer-container {
+  position: relative;
+  background-color: #f0f0f0;
+  padding-top: 140px; 
+  padding-bottom: 30px;
+  margin-top: 160px;  
+  width: 100%;
+  font-family: 'Satoshi', sans-serif;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 2.5fr 1.5fr 1.5fr 1.5fr 1.5fr; 
+  gap: 30px;
+}
+
+.brand-logo {
+  margin-bottom: 13px;
+  height: auto;
+  max-width: 150px;
+}
+
+.brand-desc {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 250px;
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.social-icons img {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  object-fit: contain;
+}
+
+.footer-content .col {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-content .col h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  letter-spacing: 1px;
+}
+
+.footer-content .col a {
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.footer-content .col a:hover {
+  color: #000;
+}
+
+.footer-divider {
+  max-width: 1200px;
+  margin: 40px auto 20px;
+  border: none;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footer-bottom {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: #666;
+  font-size: 14px;
+}
+
+
+@media (max-width: 900px) {
+  .footer-container {
+    padding-top: 180px;
+  }
+
+  .footer-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 20px;
+  }
+  
+  .footer-brand {
+    grid-column: span 2; 
+  }
+
+  .brand-desc {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  .footer-container {
+    padding-top: 200px;
+    margin-top: 180px;
+  }
+
+  .footer-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px 16px;
+  }
+
+  .footer-brand {
+    grid-column: span 2;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+}

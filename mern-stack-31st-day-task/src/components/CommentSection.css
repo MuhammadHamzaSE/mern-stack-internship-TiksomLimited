@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Satoshi;
+    src: url("../assets/font/Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf");
+}
+.commentcard{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 30px;
+    font-family: Satoshi;
+    margin-bottom: 10px;
+}
+.descr{
+    color: rgb(94, 94, 94);
+}

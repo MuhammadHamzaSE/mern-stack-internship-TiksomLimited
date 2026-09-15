@@ -1,0 +1,34 @@
+.rating{
+    display: flex;
+    gap: 10px;
+}
+.price{
+    display: flex;
+    gap: 10px;
+}
+.price1{
+    color: gray;
+    text-decoration: line-through;
+}
+.card{
+    padding: 10px;
+    height: auto;
+    border-radius: 10px;
+}
+.card1{
+    text-decoration: none;
+    color: black;
+}
+.discountpercentage{
+    color: red;
+    background-color: rgb(255, 212, 220);
+    border-radius: 10px;
+    width: 50px;
+    text-align: center;
+}
+.thumbnail{
+    padding: 20px;
+    background: #F0EEED;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}

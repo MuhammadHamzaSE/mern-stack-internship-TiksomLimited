@@ -689,3 +689,28 @@ Apply everything learned during Week 4 by building a React application from scra
 
 ## Deliverables
 - `react-useeffect-practice/`
+
+
+# Day 31: Weekly Review & Practical Assessment (Figma to React E-Commerce App)
+
+## Objective
+- Review React fundamentals, state management, form validation, component communication, and routing.
+- Convert a professional Figma design into a fully responsive, pixel-perfect React application.
+- Consume external API endpoints (DummyJSON) for real-time e-commerce data rendering.
+- Deploy the production build to Netlify.
+
+## Practical: Mini Project (E-Commerce Web App)
+- **Figma Design Conversion:** Translated design template into modular, reusable React UI components.
+- **API Integration:** Integrated `https://dummyjson.com/products` endpoints for products listing, single product details, categories, search, sorting, and pagination.
+- **Features Implemented:**
+  - Responsive multi-page layout (Home, Product Catalog, Product Details)
+  - Search, category filter, and multi-option sorting (price/rating)
+  - Dynamic pagination controls
+  - Product details view / modal popup
+  - Comprehensive UI state handling (Loading skeleton, Error alerts, Empty result view)
+  - Live deployment on Netlify
+
+## Weekly Deliverables
+- GitHub Repository with clean commit history
+- Functional React E-Commerce Application
+- Production deployment URL (Netlify)
